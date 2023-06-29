@@ -1,17 +1,20 @@
+import { useWindowSize } from "@uidotdev/usehooks";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function Sidebar() {
+function Sidebar(props) {
   const location = useLocation();
+  const size = useWindowSize();
+  console.log(props.showNav);
   return (
     <>
       <div className="absolute w-full bg-gradient-to-t from-violet-500 to-violet-400 dark:hidden min-h-75 h-75"></div>
 
-      <aside className="fixed inset-y-0 flex-wrap items-center justify-between block w-80 p-0 my-4 overflow-y-auto antialiased transition-transform duration-200 -translate-x-full bg-white border-0 shadow-xl dark:shadow-none dark:bg-slate-850 max-w-64 ease-nav-brand z-990 xl:ml-6 rounded-2xl xl:left-0 xl:translate-x-0">
+      <aside className={`fixed inset-y-0 flex-wrap items-center justify-between block w-80 p-0 my-4 overflow-y-auto antialiased transition-transform duration-200 ${size.width<1200 ? props.showNav===true? '-translate-x-full': '':''} bg-white border-0 shadow-xl dark:shadow-none dark:bg-slate-850 max-w-64 ease-nav-brand z-990 xl:ml-6 rounded-2xl xl:left-0 xl:translate-x-0`}>
         <div className="h-19">
           <i
             className="absolute top-0 right-0 p-4 opacity-50 cursor-pointer fas fa-times dark:text-white text-slate-400 xl:hidden"
-            sidenav-close
+            onClick={props.onClick}
           ></i>
           <a
             className="block px-8 py-6 m-0 text-sm whitespace-nowrap dark:text-white text-slate-700"

@@ -5,7 +5,7 @@ function Sites() {
     <>
       <div className="w-full px-6 py-6 mx-auto">
         <div className="flex flex-wrap -mx-3">
-          <div className="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/5">
+          <div className="w-full max-w-full px-3 mb-6 sm:w-1/5 sm:flex-none xl:mb-0 xl:w-1/5">
             <div className="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border">
               <div className="flex-auto p-4">
                 <div className="flex flex-row -mx-3">
@@ -27,7 +27,7 @@ function Sites() {
             </div>
           </div>
 
-          <div className="w-full max-w-full px-3 sm:w-1/2 sm:flex-none xl:w-1/5">
+          <div className="w-full max-w-full px-3 sm:w-1/5 sm:flex-none xl:w-1/5">
             <div className="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border">
               <div className="flex-auto p-4">
                 <div className="flex flex-row -mx-3">
@@ -48,7 +48,7 @@ function Sites() {
               </div>
             </div>
           </div>
-          <div className="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/5">
+          <div className="w-full max-w-full px-3 mb-6 sm:w-1/5 sm:flex-none xl:mb-0 xl:w-1/5">
             <div className="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border">
               <div className="flex-auto p-4">
                 <div className="flex flex-row -mx-3">
@@ -57,12 +57,12 @@ function Sites() {
                       <p className="mb-0 font-sans text-sm font-semibold leading-normal uppercase dark:text-white dark:opacity-60">
                         Healthy
                       </p>
-                      <h5 className="mb-2 font-bold dark:text-white">186</h5>
+                      <h5 className="mb-2 font-bold dark:text-white">185</h5>
                     </div>
                   </div>
                   <div className="px-3 text-right basis-1/3">
-                    <div className="inline-block w-12 h-12 text-center rounded-circle bg-gradient-to-tl from-red-600 to-orange-600">
-                      <i className="ni leading-none ni-world text-lg relative top-3.5 text-white"></i>
+                    <div className="inline-block w-12 h-12 text-center rounded-circle bg-gradient-to-tl from-blue-500 to-violet-500">
+                      <i className="ni leading-none ni-money-coins text-lg relative top-3.5 text-white"></i>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,8 @@ function Sites() {
             </div>
           </div>
 
-          <div className="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/5">
+          {/* DATATABLE */}
+          <div className="w-full max-w-full px-3 mb-6 sm:w-1/5 sm:flex-none xl:mb-0 xl:w-1/5">
             <div className="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border">
               <div className="flex-auto p-4">
                 <div className="flex flex-row -mx-3">
@@ -91,7 +92,7 @@ function Sites() {
               </div>
             </div>
           </div>
-          <div className="w-full max-w-full px-3 sm:w-1/2 sm:flex-none xl:w-1/5">
+          <div className="w-full max-w-full px-3 sm:w-1/5 sm:flex-none xl:w-1/5">
             <div className="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border">
               <div className="flex-auto p-4">
                 <div className="flex flex-row -mx-3">
@@ -112,851 +113,185 @@ function Sites() {
               </div>
             </div>
           </div>
-          <div class="w-full max-w-full">
-            <div class="relative flex flex-col min-w-0 break-words bg-white border-0 shadow-xl rounded-2xl bg-clip-border">
-              <div class="table-responsive">
-                <table
-                  class="table table-flush text-slate-500"
-                  datatable
-                  id="datatable-search"
-                >
-                  <thead class="thead-light">
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Salary</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Tiger Nixon
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        System Architect
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">61</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $320,800
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Garrett Winters
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Accountant
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Tokyo</td>
-                      <td class="text-sm font-normal leading-normal">63</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $170,750
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Ashton Cox
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Junior Technical Author
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">66</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $86,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Cedric Kelly
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Senior Javascript Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">22</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $433,060
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Airi Satou
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Accountant
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Tokyo</td>
-                      <td class="text-sm font-normal leading-normal">33</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $162,700
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Brielle Williamson
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Integration Specialist
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">61</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $372,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Herrod Chandler
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Sales Assistant
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">59</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $137,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Rhona Davidson
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Integration Specialist
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Tokyo</td>
-                      <td class="text-sm font-normal leading-normal">55</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $327,900
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Colleen Hurst
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Javascript Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">39</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $205,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Sonya Frost
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Software Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">23</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $103,600
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Jena Gaines
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Office Manager
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">30</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $90,560
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Quinn Flynn
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Support Lead
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">22</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $342,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Charde Marshall
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Regional Director
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">36</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $470,600
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Haley Kennedy
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Senior Marketing Designer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">43</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $313,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Tatyana Fitzpatrick
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Regional Director
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">19</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $385,750
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Michael Silva
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Marketing Designer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">66</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $198,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Paul Byrd
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Chief Financial Officer (CFO)
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">64</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $725,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Gloria Little
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Systems Administrator
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">59</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $237,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Bradley Greer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Software Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">41</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $132,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Dai Rios
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Personnel Lead
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">35</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $217,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Jenette Caldwell
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Development Lead
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">30</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $345,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Yuri Berry
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Chief Marketing Officer (CMO)
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">40</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $675,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Caesar Vance
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Pre-Sales Support
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">21</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $106,450
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Doris Wilder
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Sales Assistant
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Sidney</td>
-                      <td class="text-sm font-normal leading-normal">23</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $85,600
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Angelica Ramos
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Chief Executive Officer (CEO)
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">47</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $1,200,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Gavin Joyce
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">42</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $92,575
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Jennifer Chang
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Regional Director
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Singapore
-                      </td>
-                      <td class="text-sm font-normal leading-normal">28</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $357,650
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Brenden Wagner
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Software Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">28</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $206,850
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Fiona Green
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Chief Operating Officer (COO)
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">48</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $850,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Shou Itou
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Regional Marketing
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Tokyo</td>
-                      <td class="text-sm font-normal leading-normal">20</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $163,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Michelle House
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Integration Specialist
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Sidney</td>
-                      <td class="text-sm font-normal leading-normal">37</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $95,400
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Suki Burks
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">53</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $114,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Prescott Bartlett
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Technical Author
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">27</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $145,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Gavin Cortez
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Team Leader
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">22</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $235,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Martena Mccray
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Post-Sales support
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">46</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $324,050
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Unity Butler
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Marketing Designer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">47</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $85,675
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Howard Hatfield
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Office Manager
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">51</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $164,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Hope Fuentes
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Secretary
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">41</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $109,850
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Vivian Harrell
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Financial Controller
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">62</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $452,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Timothy Mooney
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Office Manager
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">37</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $136,200
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Jackson Bradshaw
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Director
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">65</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $645,750
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Olivia Liang
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Support Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Singapore
-                      </td>
-                      <td class="text-sm font-normal leading-normal">64</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $234,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Bruno Nash
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Software Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">38</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $163,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Sakura Yamamoto
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Support Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">Tokyo</td>
-                      <td class="text-sm font-normal leading-normal">37</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $139,575
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Thor Walton
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">61</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $98,540
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Finn Camacho
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Support Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">47</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $87,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Serge Baldwin
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Data Coordinator
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Singapore
-                      </td>
-                      <td class="text-sm font-normal leading-normal">64</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $138,575
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Zenaida Frank
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Software Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">63</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $125,250
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Zorita Serrano
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Software Engineer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">56</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $115,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Jennifer Acosta
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Junior Javascript Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">43</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $75,650
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Cara Stevens
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Sales Assistant
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">46</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $145,600
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Hermione Butler
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Regional Director
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">47</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $356,250
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Lael Greer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Systems Administrator
-                      </td>
-                      <td class="text-sm font-normal leading-normal">London</td>
-                      <td class="text-sm font-normal leading-normal">21</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $103,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Jonas Alexander
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        San Francisco
-                      </td>
-                      <td class="text-sm font-normal leading-normal">30</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $86,500
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Shad Decker
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Regional Director
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Edinburgh
-                      </td>
-                      <td class="text-sm font-normal leading-normal">51</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $183,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Michael Bruce
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Javascript Developer
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Singapore
-                      </td>
-                      <td class="text-sm font-normal leading-normal">29</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $183,000
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-sm font-normal leading-normal">
-                        Donna Snider
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        Customer Support
-                      </td>
-                      <td class="text-sm font-normal leading-normal">
-                        New York
-                      </td>
-                      <td class="text-sm font-normal leading-normal">27</td>
-                      <td class="text-sm font-normal leading-normal">
-                        $112,000
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+
+          <div className="flex flex-wrap mt-6 mx-3 w-full">
+            <div className="w-full max-w-full px-3 mt-0 lg:w-full lg:flex-none">
+              <div className="border-black/12.5 dark:bg-slate-850 dark:shadow-dark-xl shadow-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+                <div className="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid p-6 pt-4 pb-0">
+                  {/* DATATABLE */}
+
+                  <table class="divide-y divide-gray-300 w-full pt-3 m-3 rounded-t-2xl border-black/12.5 dark:shadow-dark-xl" id="dataTable">
+                    <thead class="bg-violet-500">
+                      <tr>
+                        <th class="px-6 py-2 text-xs text-white">ID</th>
+                        <th class="px-6 py-2 text-xs text-white">Name</th>
+                        <th class="px-6 py-2 text-xs text-white">Email</th>
+                        <th class="px-6 py-2 text-xs text-white">Created_at</th>
+                        <th class="px-6 py-2 text-xs text-white">Edit</th>
+                        <th class="px-6 py-2 text-xs text-white">Delete</th>
+                      </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-300">
+                      <tr class="text-center whitespace-nowrap">
+                        <td class="px-6 py-4 text-sm text-gray-500">1</td>
+                        <td class="px-6 py-4">
+                          <div class="text-sm text-gray-900">Jon doe</div>
+                        </td>
+                        <td class="px-6 py-4">
+                          <div class="text-sm text-gray-500">
+                            jhondoe@example.com
+                          </div>
+                        </td>
+                        <td class="px-6 py-4 text-sm text-gray-500">
+                          2021-1-12
+                        </td>
+                        <td class="px-6 py-4">
+                          <a href="/" class="inline-block text-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 text-blue-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                              />
+                            </svg>
+                          </a>
+                        </td>
+                        <td class="px-6 py-4">
+                          <a href="/" class="inline-block text-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 text-red-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                              />
+                            </svg>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr class="text-center whitespace-nowrap">
+                        <td class="px-6 py-4 text-sm text-gray-500">2</td>
+                        <td class="px-6 py-4">
+                          <div class="text-sm text-gray-900">Jon doe 2</div>
+                        </td>
+                        <td class="px-6 py-4">
+                          <div class="text-sm text-gray-500">
+                            jhondoe2@example.com
+                          </div>
+                        </td>
+                        <td class="px-6 py-4 text-sm text-gray-500">
+                          2021-1-12
+                        </td>
+                        <td class="px-6 py-4">
+                          <a href="/" class="inline-block text-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 text-blue-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                              />
+                            </svg>
+                          </a>
+                        </td>
+                        <td class="px-6 py-4">
+                          <a href="/" class="inline-block text-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 text-red-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                              />
+                            </svg>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr class="text-center whitespace-nowrap">
+                        <td class="px-6 py-4 text-sm text-gray-500">3</td>
+                        <td class="px-6 py-4">
+                          <div class="text-sm text-gray-900">Jon doe 3</div>
+                        </td>
+                        <td class="px-6 py-4">
+                          <div class="text-sm text-gray-500">
+                            jhondoe3@example.com
+                          </div>
+                        </td>
+                        <td class="px-6 py-4 text-sm text-gray-500">
+                          2021-1-12
+                        </td>
+                        <td class="px-6 py-4">
+                          <a href="/" class="inline-block text-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 text-blue-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                              />
+                            </svg>
+                          </a>
+                        </td>
+                        <td class="px-6 py-4">
+                          <a href="/" class="inline-block text-center">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 text-red-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                              />
+                            </svg>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  {/* DATATABLE END */}
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* DATATABLE */}
-      {/* DATATABLE END */}
     </>
   );
 }

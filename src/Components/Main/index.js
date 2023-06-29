@@ -1,6 +1,8 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 function Main(props) {
+  const location = useLocation();
   return (
     <main className="relative h-full max-h-screen transition-all duration-200 ease-in-out xl:ml-68 rounded-xl">
       <nav
@@ -20,10 +22,10 @@ function Main(props) {
                 className="text-sm pl-2 capitalize leading-normal text-white before:float-left before:pr-2 before:text-white before:content-['/']"
                 aria-current="page"
               >
-                Dashboard
+                {location.pathname==='/'?"Dashboard":location.pathname.slice(1,)}
               </li>
             </ol>
-            <h6 className="mb-0 font-bold text-white capitalize">Dashboard</h6>
+            <h6 className="mb-0 font-bold text-white capitalize">{location.pathname==='/'?"Dashboard":location.pathname.slice(1,)}</h6>
           </nav>
           {/* nav */}
           <div className="flex items-center mt-2 grow sm:mt-0 sm:mr-6 md:mr-0 lg:flex lg:basis-auto">
@@ -53,17 +55,12 @@ function Main(props) {
                 </a>
               </li>
               <li className="flex items-center pl-4 xl:hidden">
-                <a
-                  href="/"
+                <div
                   className="block p-0 text-sm text-white transition-all ease-nav-brand"
-                  sidenav-trigger
+                  
                 >
-                  <div className="w-4.5 overflow-hidden">
-                    <i className="ease mb-0.75 relative block h-0.5 rounded-sm bg-white transition-all"></i>
-                    <i className="ease mb-0.75 relative block h-0.5 rounded-sm bg-white transition-all"></i>
-                    <i className="ease relative block h-0.5 rounded-sm bg-white transition-all"></i>
-                  </div>
-                </a>
+                  <i class="fas fa-bars" onClick={props.onClick}></i>
+                </div>
               </li>
               <li className="flex items-center px-4">
                 <a
